@@ -175,7 +175,7 @@ width:100%;
 <div class="dropdown">
 <span class="dropdown-header">Productos ▼</span>
 <div class="dropdown-content">
-<a href="celulares.html"><img src="Img/movil.png" alt="Movil" style="width: 16px; height: 16px;">Smartphones</a>
+<a href="Celulares.html"><img src="Img/movil.png" alt="Movil" style="width: 16px; height: 16px;">Smartphones</a>
 <a href="Laptos.html"><img src="Img/ordenador.png" alt="Laptop" style="width: 16px; height: 16px;">Laptops</a>
 <a href="Accesorios.html"><img src="Img/raton.png" alt="Raton" style="width: 16px; height: 16px;">Accesorios</a>
 <a href="AudioyVideo.html"><img src="Img/auriculares.png" alt="Audio" style="width: 16px; height: 16px;">Audio y Video</a>
