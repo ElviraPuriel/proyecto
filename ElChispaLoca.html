@@ -126,21 +126,19 @@ border-radius: 5px;
 background-color: #f68d36; 
 }
 
-  @media screem and(max-width:400px){
 .content-right {
 float: right;
 width: 20%;
 background-color: #f2f2f2; 
 padding: 20px;
 }
-  }
- @media screem and(max-width:400px){
+ 
 .content-right img {
 width: 100%; 
 height: auto; 
 display: block;
 }
- }
+ 
 footer { 
 clear:both;
 padding:10px;
@@ -149,11 +147,19 @@ background:#2c3e50;
 color: #ffffff;
 
 }
-@media screem and(max-width:400px){
+
 .rightcolum{
 widht:100%;
 padding:0;
 }
+@media screen and (max-width: 1024px) {
+    .content-container {
+        flex-direction: column;
+    }
+    
+    .content-right {
+        width: 100%;
+    }
 }
 /*Responsive layout-when the screen is less than 400px wide, make the navigation links stack on the top of each other instead of next to each other*/
 @media screem and(max-width:400px){
